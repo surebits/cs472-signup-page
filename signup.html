@@ -5,42 +5,47 @@
     </head>
     <body>
         <form action="">
-            <div>
-                <label for="name">Name: </label>
-                <input type="text" name="name" id="name">              
-            </div>
-            <div>       
-                <label for="gender">Gender: </label>                 
-                <input type="radio" name="gender" id="male">     
-                <label for="male">Male</label>
-                <input type="radio" name="gender" id="female">     
-                <label for="famle">Female</label>
-            </div>
-            <div>
-                <label for="age">Age: </label>
-                <input type="text" name="age" id="age">          
-            </div>
-            <div>
-                <label for="personality">Personality type: </label>
-                <input type="text" name="personality" id="personality"> 
-                (<span>Don't know your type?</span>)
-            </div>
+            <fieldset>
+                <legend>New User Signup</legend>
 
-            <div>
-                <label for="os">Favourite OS:</label>
-                <select id="os" name="os">
-                    <option value="Windows">Windows</option>
-                    <option value="Mac OS X">Mac OS X</option>
-                    <option value="Linux">Linux</option>
-                </select>
-            </div>
-            <div>            
-                Seeking age:             
-                <input type="text" id="min" name="min" placeholder="min">
-                to                   
-                <input type="text" id="max" name="max" placeholder="max">
-
-            </div>
+                <div>
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name">              
+                </div>
+                <div>       
+                    <label for="gender">Gender: </label>                 
+                    <input type="radio" name="gender" id="male">     
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female">     
+                    <label for="famle">Female</label>
+                </div>
+                <div>
+                    <label for="age">Age: </label>
+                    <input type="text" name="age" id="age">          
+                </div>
+                <div>
+                    <label for="personality">Personality type: </label>
+                    <input type="text" name="personality" id="personality"> 
+                    (<span>Don't know your type?</span>)
+                </div>
+    
+                <div>
+                    <label for="os">Favourite OS:</label>
+                    <select id="os" name="os">
+                        <option value="Windows">Windows</option>
+                        <option value="Mac OS X">Mac OS X</option>
+                        <option value="Linux">Linux</option>
+                    </select>
+                </div>
+                <div>            
+                    Seeking age:             
+                    <input type="text" id="min" name="min" placeholder="min">
+                    to                   
+                    <input type="text" id="max" name="max" placeholder="max">
+    
+                </div>
+                <button>Sign Up</button>
+            </fieldset>    
         </form>
     </body>
 </html>

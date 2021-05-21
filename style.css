@@ -1,0 +1,16 @@
+fieldset {    
+    background-color: #E0DFFF;
+    border-color: grey;
+    border-radius: 10px;    
+    display: inline-block;    
+    padding: 20px;  
+}
+
+div {
+    margin-bottom: 2px;
+}
+
+div label:first-child {
+    display: inline-block;
+    width: 200px;
+}
