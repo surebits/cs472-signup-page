@@ -1,9 +1,13 @@
-fieldset {    
-    background-color: #E0DFFF;
-    border-color: grey;
-    border-radius: 10px;    
-    display: inline-block;    
-    padding: 20px;  
+a {
+    color: #FF4E82;
+    text-decoration: none;
+}
+
+button {
+    background-color: #FFA5A8;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 div {
@@ -14,6 +18,20 @@ div label:first-child, span:first-child {
     display: inline-block;
     width: 200px;
 }
+
+fieldset {    
+    background-color: #E0DFFF;
+    border: 1px solid grey;
+    border-radius: 10px;  
+    box-shadow: 1px 1px grey;  
+    display: inline-block;    
+    padding: 20px;  
+}
+
+legend {
+    background-color: #FFFFFF;
+}
+
 
 .half-width {
     width: 75px;
