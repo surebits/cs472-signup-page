@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
     <body>
         <form action="">
             <div>
@@ -17,6 +19,27 @@
             <div>
                 <label for="age">Age: </label>
                 <input type="text" name="age" id="age">          
+            </div>
+            <div>
+                <label for="personality">Personality type: </label>
+                <input type="text" name="personality" id="personality"> 
+                (<span>Don't know your type?</span>)
+            </div>
+
+            <div>
+                <label for="os">Favourite OS:</label>
+                <select id="os" name="os">
+                    <option value="Windows">Windows</option>
+                    <option value="Mac OS X">Mac OS X</option>
+                    <option value="Linux">Linux</option>
+                </select>
+            </div>
+            <div>            
+                Seeking age:             
+                <input type="text" id="min" name="min" placeholder="min">
+                to                   
+                <input type="text" id="max" name="max" placeholder="max">
+
             </div>
         </form>
     </body>
